@@ -15,7 +15,7 @@
 
 # Add a feed source
 echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> ./feeds.conf.default
-#echo "src-git small https://github.com/kenzok8/small" >> ./feeds.conf.default
+echo "src-git small https://github.com/kenzok8/small" >> ./feeds.conf.default
 #echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> ./feeds.conf.default
 #echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
 
@@ -24,8 +24,6 @@ echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> ./feeds.conf
 #git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
 #git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 #git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
-git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
-git clone https://github.com/xiaorouji/openwrt-passwall2.git package/openwrt-passwall2
-git clone https://github.com/fw876/helloworld.git package/helloworld
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2
 #rm -rf feeds/packages/lang/golang
 #git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
