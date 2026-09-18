@@ -24,6 +24,7 @@ echo "src-git small https://github.com/kenzok8/small" >> ./feeds.conf.default
 #git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
 #git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 #git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/openwrt-passwall2
 #rm -rf feeds/packages/lang/golang
 #git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
